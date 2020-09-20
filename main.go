@@ -8,6 +8,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 
 	"github.com/gorilla/mux"
@@ -15,19 +16,33 @@ import (
 
 var message = []string{"Hello Golang World!"}
 
-//GetFunc function
-func GetFunc(w http.ResponseWriter, r *http.Request) {
+//GetURIFunc function
+func GetURIFunc(w http.ResponseWriter, r *http.Request) {
 	//set content type
 	w.Header().Set("Content-Type", "application-json")
 	//encode json
-	json.NewEncoder(w).Encode(message)
+	err := json.NewEncoder(w).Encode(message)
+	//cover the errors
+	if err != nil {
+		fmt.Println("Error:", err)
+	}
+}
+
+//GetURIFmt function
+func GetURIFmt(w http.ResponseWriter, r *http.Request) {
+	_, err := fmt.Fprintf(w, "Hello Golang World!!!")
+	//cover the errors
+	if err != nil {
+		fmt.Println("Error:", err)
+	}
 }
 
 func main() {
 	//create router using mux
 	router := mux.NewRouter()
 	//create handler on /golang and call on it our GetFunc
-	router.HandleFunc("/golang", GetFunc)
+	router.HandleFunc("/golang", GetURIFunc)
+	router.HandleFunc("/golangx", GetURIFmt)
 	//just listen and serve on 8000 port
 	http.ListenAndServe(":8000", router)
 }
