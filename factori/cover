@@ -1,0 +1,6 @@
+mode: set
+module/factori/factorial.go:10.29,11.12 1 1
+module/factori/factorial.go:15.2,16.13 2 1
+module/factori/factorial.go:20.2,20.15 1 1
+module/factori/factorial.go:11.12,13.3 1 1
+module/factori/factorial.go:16.13,19.3 2 1
