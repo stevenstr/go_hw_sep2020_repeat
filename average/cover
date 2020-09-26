@@ -1,0 +1,6 @@
+mode: set
+module/average/avg.go:11.33,13.9 1 1
+module/average/avg.go:18.2,19.23 2 1
+module/average/avg.go:23.2,24.15 2 1
+module/average/avg.go:14.20,15.13 1 1
+module/average/avg.go:19.23,21.3 1 1
