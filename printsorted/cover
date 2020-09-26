@@ -1,0 +1,9 @@
+mode: set
+domain/printsorted/printsorted.go:15.43,18.9 1 1
+domain/printsorted/printsorted.go:25.2,29.20 3 1
+domain/printsorted/printsorted.go:34.2,37.29 2 1
+domain/printsorted/printsorted.go:43.2,47.12 2 1
+domain/printsorted/printsorted.go:19.17,20.35 1 1
+domain/printsorted/printsorted.go:21.20,22.37 1 1
+domain/printsorted/printsorted.go:29.20,31.3 1 1
+domain/printsorted/printsorted.go:37.29,39.3 1 1
