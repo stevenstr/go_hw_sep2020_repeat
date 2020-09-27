@@ -1,0 +1,14 @@
+BenchmarkMyStrToInt
+pkg: module
+BenchmarkMyStrToInt-4   	137931033	         8.11 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	module	21.756s
+Success: Benchmarks passed.
+
+
+BenchmarkMyStrToInt2
+pkg: module
+BenchmarkMyStrToInt2-4   	30769228	        37.3 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	module	10.944s
+Success: Benchmarks passed.

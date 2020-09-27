@@ -34,3 +34,10 @@ Lecture 4:
     hw4.2
     hw4.3dep
     hw4.3gomod
+
+Lecture 5: 
+  Branches: 
+    cw5 
+    hw5.1 
+    hw5.2 
+    hw5.3
