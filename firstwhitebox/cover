@@ -1,0 +1,6 @@
+mode: set
+module/calcmarkcake.go:5.40,6.36 1 1
+module/calcmarkcake.go:7.2,8.30 2 1
+module/calcmarkcake.go:12.2,12.10 1 1
+module/calcmarkcake.go:6.36,6.58 1 1
+module/calcmarkcake.go:8.30,11.3 2 1
