@@ -1,0 +1,9 @@
+mode: set
+module/maximum/max.go:15.29,17.9 1 1
+module/maximum/max.go:26.2,29.22 3 1
+module/maximum/max.go:36.2,36.15 1 1
+module/maximum/max.go:18.16,19.26 1 1
+module/maximum/max.go:20.19,21.24 1 1
+module/maximum/max.go:22.19,23.14 1 1
+module/maximum/max.go:29.22,31.14 2 1
+module/maximum/max.go:31.14,34.4 2 1
